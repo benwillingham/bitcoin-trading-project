@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the entire viewport height is covered */
+}
+
+.App-header {
+  width: 100%; /* Take up full width of the viewport */
+  background-color: #282c34;
+  color: white;
+  padding: 20px 0; /* Adjust padding as needed */
+}
+
+.header-tabs {
+  display: flex;
+  justify-content: space-around; /* Distribute tabs evenly */
+  align-items: center; /* Center vertically */
+}
+
+.header-tabs button {
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: white; /* Set tab text color */
+}
+
+.header-tabs button.active {
+  color: blue; /* Example active tab color */
+}
+
+.tab-content {
+  /* Your tab content styles */
+}
+
+.dashboard-buttons {
+  /* Your dashboard button styles */
+}

@@ -1,0 +1,86 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the entire viewport height is covered */
+}
+
+.App-header {
+  width: 100%; /* Take up full width of the viewport */
+  background-color: #282c34;
+  color: white;
+  padding: 10px 0; /* Adjust padding as needed */
+  display: flex;
+  justify-content: left, space-between; /* Space between logo/image and tabs */
+  align-items: center; /* Center vertically */
+}
+
+.header-logo {
+  width: 50px; /* Adjust the size of the logo/image as needed */
+  height: auto;
+  margin-left: 20px; /* Add margin to separate from the tabs */
+}
+
+.header-tabs {
+  display: flex;
+  align-items: center; /* Center vertically */
+  align-items: left;
+}
+
+.header-tabs button {
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: white; /* Set tab text color */
+}
+
+.header-tabs button.active {
+  color: blue; /* Example active tab color */
+}
+
+.tab-content {
+  /* Your tab content styles */
+}
+
+.dashboard-container img {
+  width: 100%;
+  display: block;
+}
+
+/* DashboardPage.css */
+.dashboard-page {
+  padding: 20px;
+}
+
+.dashboard-container {
+  position: relative;
+  width: 100%;
+}
+
+
+
+.dashboard-buttons {
+  position: absolute;
+  top: 200px; /* Adjust as needed */
+  left: 200px; /* Adjust as needed */
+}
+
+.dashboard-buttons button {
+  margin-right: 10px;
+  color: rgb(192, 170, 170);
+  background-color: red; 
+  margin-right: 10px;
+  font-size: 18px; /* Increase font size */
+  padding: 10px 20px; /* Increase padding */
+  height: 50px; /* Increase height */
+  border-radius: 10px;
+}
+
+body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  font-family: Arial, sans-serif; /* Example font */
+  background-image: url('./utils/background.png'); /* Set the image path */
+  background-size: 100%; /* Cover the entire body */
+  background-position: center; /* Center the image */
+}
